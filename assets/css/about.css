@@ -1,0 +1,166 @@
+.backgroundforabout{
+    background-color: #8D1B3D;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 26px -5px rgba(0,0,0,0.75);
+}
+
+/* Section One */
+.backgroundforsection1{
+    padding: 60px 30px 60px 30px;
+}
+.fordashedborder{
+    padding: 10px;
+    border: 2px dashed rgba(0,0,0,0.5);
+    border-radius: 8px;
+    height: 100%;
+}
+.respectivecarimg{
+    background-image: url('../img/image_2019_10_25T06_09_52_733Z.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.forcenteringthecontext{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+}
+
+.whoheading, .whopara{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.whoheading{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.whopara{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Our Motto Section */
+.backgroundforourmotto{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(153, 153, 153, 0.5);
+}
+
+.ourmottotext{
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 0px;
+    color: rgba(0,0,0,0.7);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.ourmottotext:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f10d";
+    display: block;
+    position: absolute;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.ourmottotext::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f10e";
+    display: block;
+    position: absolute;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+@media(min-width:320px){
+    /* About us heading area */
+    .backgroundforabout{
+        padding: 30px 0px 30px 0px;
+    }
+
+    /* Section One */
+    .respectivecarimg{
+        background-size: 100%;
+        height: 30vh;
+    }
+
+    .forcenteringthecontext{
+        padding: 15px;
+    }
+
+    /* Our Motto Area */
+    .backgroundforourmotto{
+        padding: 30px;
+    }
+
+    .ourmottotext{
+        text-align: center;
+    }
+    .ourmottotext:before{
+        left: -10px;
+    }
+    .ourmottotext::after{
+        right: 0px;
+        bottom: 0px;
+    }
+}
+
+@media(min-width:576px){
+    /* Section One */
+    .respectivecarimg{
+        height: 50vh;
+    }
+}
+
+@media(min-width:768px){
+    /* Section One */
+    .respectivecarimg{
+        height: 70vh;
+    }
+}
+
+@media(min-width:992px){
+    /* About us heading area */
+    .backgroundforabout{
+        padding: 80px 0px 30px 0px;
+    }
+    .respectivecarimg{
+        background-size: cover;
+        height: 100%;
+    }
+    .forcenteringthecontext{
+        padding: 30px;
+    }
+
+    /* Our Motto Area */
+    .backgroundforourmotto{
+        height: 25vh;
+    }
+    .ourmottotext:before{
+        font-size: 80px;
+        top: -70px;
+        left: 15px;
+    }
+    .ourmottotext::after{
+        font-size: 80px;
+        right: 30px;
+        top: -25px;
+    }
+}
+
+@media(min-width:1200px){
+
+}
+

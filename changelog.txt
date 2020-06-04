@@ -1,0 +1,20 @@
+Changelog 25th Oct
+
+Index.php
+Styles.css
+footer.php
+header.php
+About.php
+about.css
+contact.php
+contact.css
+services.php
+services.css
+
+
+Changelog 29th Oct
+
+Changed the Navbar
+Changed the what we do section into cards section
+Changed the Footer section from 4 colums to 3 columns eliminating Recent
+views.

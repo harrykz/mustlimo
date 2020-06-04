@@ -1,0 +1,151 @@
+/* Full div Background */
+.backgroundcolor{
+    background-image: url('../img/bmw-6-series-gran-turismo.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slightblackback{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Signup box */
+.signup{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.signup{
+    color: #fff
+}
+.signupbox{
+    border-top: 2px solid #8D1B3D;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control{
+    border: 0px !important;
+}
+
+.customwidth{
+    width: 100% !important;
+}
+
+.form-control:focus{
+    outline: none !important;
+}
+
+#submitbtn{
+    background-color: #8D1B3D;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+#submitbtn:hover{
+    background-color: transparent;
+    border: 2px solid #8D1B3D;
+    color: #fff;
+    cursor: pointer;
+}
+
+.holderforicon{
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formargs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder { text-align:left; }
+
+.forgetpass{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.forgetpasstext{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgetpasstext:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #8D1B3D;
+}
+
+.alreadyhaveacc{
+    font-family:'Quicksand', sans-serif;
+    margin-bottom: 0px;
+    color: #fff;
+    margin-top: 10px; 
+}
+
+.alreadyhaveacc:before{
+    display: block;
+    /* position: absolute; */
+    content: "";
+    border-top: 1px solid rgba(255, 255, 255, 0.45);
+    width: 50%;
+    margin: 20px auto;
+    /* top: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%);*/
+}
+
+.returntolog{
+    color: #8D1B3D;
+    text-decoration: none;
+}
+
+.returntolog:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+@media(min-width: 320px){
+    .slightblackback{
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+    .slightblackback{
+        padding: 150px 0px 150px 0px;
+    }
+}
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 1200px){
+
+}
+

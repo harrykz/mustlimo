@@ -1,0 +1,80 @@
+.slightpinkback{
+    background-color: #8D1B3D;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 40px 0px;
+    font-family: 'Righteous', cursive;
+}
+
+.fourOfourpara, .fourOfoursecondpara{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.backtohomelink{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #8D1B3D;
+    background-color: #fff;
+    border: 3px solid #8D1B3D;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+.backtohomelink:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #8D1B3D;
+    border: 3px solid #8D1B3D;
+    color: #fff;
+}
+
+.pnkarrow{
+    height: 100px;
+    width: 100px;
+}
+
+@media(min-width: 320px){
+    /*404 Territory*/
+    .big404{
+        font-size: 50px;
+    }
+    .fourOfourpara, .fourOfoursecondpara{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+    /*404 Territory*/
+    .big404{
+        font-size: 80px;
+    }
+    .fourOfourpara, .fourOfoursecondpara{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 992px){
+    /*404 Territory*/
+    .big404{
+        font-size: 180px;
+    }
+    .fourOfourpara, .fourOfoursecondpara{
+        font-size: 20px;
+    }   
+}
+
+@media(min-width: 1200px){
+
+}

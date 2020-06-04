@@ -1,0 +1,947 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Contact Information on top */
+.contactnumberontop{
+    color: #8D1B3D;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 10px 0px 10px 20px;
+}
+
+.contactnumberontop:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 1px solid grey;
+    width: 95%;
+    margin-top: 10px;
+}
+
+/* navbar */
+.extrapaddingtop{
+    padding: 10px 30px 10px 30px;
+    background-color: #000;
+}
+
+.topbarnav{
+    color: #fff !important;
+    transition: 0.5s ease-in-out
+}
+
+.nav-item{
+    padding: 0px 10px 0px 10px;
+}
+
+.topbarnav:hover{
+    cursor: pointer;
+    color: #8D1B3D !important;
+}
+
+.orderacablink{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.orderacablink:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#login{
+    background-color: #8D1B3D;
+    transition: 0.5s ease-in-out;
+}
+
+#login:hover{
+    background-color: transparent;
+    color: #8D1B3D;
+}
+
+#signup{
+    backgrounD: transparent;
+    color: #fff;
+}
+
+#signup:hover, #login:hover{
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+/* MyCarousel Area */
+
+.maincarousel-inner, .maincarousel-item{
+    height: 100% !important;
+}
+
+.myclass{
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundOne{
+    background-image: url(../img/$_58.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.backgroundTwo{
+    background-image: url(../img/Layer-623.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.backgroundThree{
+    background-image: url(../img/bmw-6-series-gran-turismo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.forblackbackground{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.centeredtext{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+}
+
+.biggerthanlater, .smallerthanprevious{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.takeyoutextbox{
+    font-size: 40px; 
+    color: #fff;
+    background: #2c2c2dad; 
+    text-align: center; 
+}
+
+.ride-with-us {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    position: relative;
+}
+.ride-with-us a{
+    border: solid #8D1B3D;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    background: #0000006b;
+    text-decoration: none;
+}
+
+.ride-with-us a:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer
+}
+
+.form-control {
+    text-align: center;
+    width: 65% !important;
+}
+#navbarSupportedContent ul {
+    margin: 0 auto;
+}
+
+/* About us Section and Statistics Section */
+.mercedesimage{
+    background-image: url('../img/image_2019_10_25T06_09_52_733Z.png');
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+.mercedesimage1{
+    background-image: url('../img/image_2019_10_25T06_13_59_320Z.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.knewus{
+    background-color: #8D1B3D; 
+    padding-bottom: 50px;
+}
+
+.gettoknowus {
+    color: #fff;
+    padding: 35px 20px 5px 25px;
+}
+.aboutustext {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 0px 20px 5px 25px;
+}
+.aboutustext:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #ffffff;
+    width: 20%;
+    margin-top: 5px; 
+}
+.moreinfo{
+    border: 2px solid #efe8e8;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.moreinfo:hover{
+    background-color: #fff;
+    color: #8D1B3D;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* How it works Section */
+.appcol{
+    color: #8D1B3D;
+}
+
+.sizingthem{
+    font-size: 30px;
+    color: #8D1B3D;
+}
+.sizingthemcar{
+    font-size: 40px;
+    color: #8D1B3D;
+}
+
+/* Cab Services Area 
+#hourly:before{
+    display: block;
+    content: "01.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -5px;
+    left: 6px;
+}
+
+#doortodoor:after{
+    display: block;
+    content: "02.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -5px;
+    left: 6px;
+}
+#airport:after{
+    display: block;
+    content: "03.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -5px;
+    left: 6px;
+}
+#child:after{
+    display: block;
+    content: "04.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -10px;
+    left: 5px;
+}
+#outof:after{
+    display: block;
+    content: "05.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -10px;
+    left: 5px;
+}
+#employee:after{
+    display: block;
+    content: "06.";
+    width: 100%;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(153, 153, 153, 0.5);
+    top: -10px;
+    left: 5px;
+}
+*/
+
+.numbersperc{
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.havebeendriving {
+    color: #fff;
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gettoknowus1 {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.aboutustext1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 35px
+}
+
+.authorname{
+    color: #8D1B3D;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* What we do Section */
+.rider{
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.whatwedoparas{
+    color: rgba(0,0,0,0.9);
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cards{
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+    transition: 1.5s ease;
+    position: relative;
+    perspective: 1000px;
+}
+
+.cards:hover{
+    transform: rotateY(360deg);
+    background-color: #8D1B3D;
+}
+
+.boxingthumbtack{
+    padding: 20px 3px 20px 3px;
+    transition: all 0.5s;
+    height: 100%;
+}
+
+.boxingthumbtack:hover{
+    border-radius: 8px;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+    /*background-color: #8D1B3D;*/
+}
+
+.stylingservice{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.iconifluid{
+    height: 70px;
+    width: 70px;
+}
+
+.afterimgline{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.afterimgline:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid yellow;
+    width: 8%;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Modal Section */
+.drivername{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.driverdetails{
+    margin-bottom: 0px;
+    color: #fff;
+}
+.historyratings, .drivername{
+    font-size: 30px;
+    color: #fff;
+}
+
+.historydetails, .modal-title{
+    color: #fff;
+}
+
+.starring{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-header{
+    border-bottom: 1px solid rgba(233, 236, 239, 0.38);
+}
+
+.modal-header, .modal-body{
+    background-color: #000;
+}
+
+.modal-footer{
+    justify-content: center !important;
+}
+
+.modalimg{
+    margin: 0px 0px 0px 0px;
+}
+
+.modalimg img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%!important;
+}
+
+.extradetails{
+    padding: 20px 0px 20px 0px;
+}
+
+.knows{
+    margin-bottom: 0px;
+}
+
+.theirsizes{
+    font-size: 20px;
+}
+
+/* Testimonial Section */
+.darkback{
+    background-color: #222831;
+    padding: 0px 0px 20px 0px;
+}
+.testimonialheadingunderlined{
+    padding: 50px 0px 0px 0px;
+}
+.sectiontestimonial{
+    padding: 20px 0px 20px 0px;
+}
+
+.testimonial-img{
+    margin: 15px 0px 15px 0px;
+}
+
+/* Footer Section */
+.footerlistyellow{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.yellowitems{
+    margin: 5px 0px 5px 0px;
+}
+
+.yellowanchors{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.yellowanchors:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+/* Footer Social Icons */
+.footerline{
+    margin-bottom: 0;
+    padding: 15px 0px 15px 0px;
+    color: #fff;
+}
+.footersocialicons{
+    padding: 15px 0px 15px 0px;
+    list-style-type: none;
+    float: right;
+}
+
+.sociallisticons{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+.footerlistheading {
+    color: #8D1B3D;
+    font-weight: bold;
+    font-size: 20px;
+}
+.aboutparabottom {
+    color: #fff;
+}
+.address {
+    color: #fff;
+}
+.aboutustext1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #8d1b3d;
+    width: 10%;
+    margin-top: 5px;
+}
+.cab-text {
+    text-align: center;
+}
+
+.ridertext{
+    display: inline-block;
+    width: 100%;
+}
+.testimonial-img img {
+    width: 150px;
+    height: 150px;
+    border: 13px solid #ffffff !important;
+    border-radius: 50%!important;
+}
+
+/* New Footer Arrangement */
+.rowhe{
+    padding: 20px 0px 20px 0px;
+}
+.centeringsocio{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.socialanchortags{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.socialanchortags:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer Final Social Icons */
+#fb, #tw, #vi, #yt{
+    display: inline-block;
+}
+#fb:after{
+    position: absolute;
+    display: block;
+    content:"";
+    border-right: 1px solid rgba(141, 27, 61, 0.5);
+    height: 50%;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#fb:hover{
+    color: #3b5999;
+}
+#tw:after{
+    position: absolute;
+    display: block;
+    content:"";
+    border-right: 1px solid rgba(141, 27, 61, 0.5);
+    height: 50%;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#tw:hover{
+    color: #55acee;
+}
+#gp:hover{
+    color: #dd4b39
+}
+#linkin:hover{
+    color: #2867B2;
+}
+#inst:hover{
+    color: #C13584;
+}
+#inst:after{
+    position: absolute;
+    display: block;
+    content:"";
+    border-right: 1px solid rgba(141, 27, 61, 0.5);
+    height: 50%;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#pin:hover{
+    color: #bd081c;
+}
+
+.footerbackpink{
+    background-color: #8D1B3D;
+}
+
+.mustlimolink{
+    color: #fff;
+    text-decoration: none;
+}
+
+.mustlimolink:hover{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media(min-width: 320px){
+    /* Navbar Section */
+    .navbar-collapse{
+        text-align: center;
+    }
+    .orderacablink{
+        margin: 5px 2px 5px 2px;
+    }
+    /* Main Carousel Div */
+    .maincarousel{
+        height: 30vh;
+    }
+    /* About us left image section */
+    .mercedesimage, .mercedesimage1{
+        height: 50vh;
+        background-size: 100%;
+    }
+
+    .biggerthanlater{
+        font-size: 20px;
+    }
+    .smallerthanprevious{
+        font-size: 14px;
+    }
+    
+    .centeredtext{
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+    }
+
+    .ride-with-us{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        top: -15px;
+    }
+
+    .besttextheading{
+        display: none !important;
+    }
+
+    .formargsonlarge{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .knewus{
+        text-align: center;
+    }
+
+    .aboutustext:after{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .text-section{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* How it works */
+    .paddingforfeatures{
+        padding: 0px 50px 0px 50px !important;
+    }
+
+    /* What we do */
+    .rider{
+        font-size: 25px;
+    }
+
+    .cab-text h1:after {
+        position: absolute;
+        display: block;
+        content: "";
+        border-bottom: 2px solid #8d1b3d;
+        width: 20%;
+        margin-top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .ridertext h1:after {
+        position: absolute;
+        display: block;
+        content: "";
+        border-bottom: 2px solid #8d1b3d;
+        width: 20%;
+        margin-top: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .stylingservice{
+        font-size: 25px; 
+    }
+
+    /* Map and Stores Section */
+    .aligningstores{
+    position: relative;  
+    width: 100%;
+    text-align: center; 
+    padding: 9px;
+    }
+
+    .aspectratiostore{
+        width:115px; 
+        height:auto;
+    }
+
+    /* Footer Area */
+    .leftingandrighting{
+        text-align: center;
+    }
+}
+
+@media(min-width: 576px){
+    /* Main Carousel Div */
+    .maincarousel{
+        height: 50vh;
+    }
+    /* About us left image section */
+    .mercedesimage, .mercedesimage1{
+        height: 60vh;
+    }
+
+    .biggerthanlater{
+        font-size: 30px;
+    }
+    .smallerthanprevious{
+        font-size: 18px;
+    }
+    
+    .ride-with-us{
+        top: -10px;
+    }
+
+    .ride-with-us a{
+        font-size: 16px;
+    }
+    
+}
+
+@media(min-width: 768px){
+    /* Main Carousel Div */
+    .maincarousel{
+        height: 60vh;
+    }
+    /* Main Carousel Div */
+    .maincarousel{
+        height: 80vh;
+    }
+    .takeyoutextbox{
+        padding: 30px 40px;
+    }
+    /* About us left image section */
+    .mercedesimage{
+        height: 100%;
+    }
+
+    .mercedesimage1{
+        height: 100%;
+    }
+
+    .biggerthanlater{
+        font-size: 40px;
+    }
+    .smallerthanprevious{
+        font-size: 22px;
+    }
+
+    .centeredtext{
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .ride-with-us{
+        justify-content: flex-end;
+    }
+
+    .ride-with-us a{
+        font-size: 18px;
+    }
+
+    /* About Us */
+    .knewus{
+        text-align: left;
+    }
+
+    .aboutustext:after{
+        left: 25px;
+        transform: translateX(0px);
+    }
+
+    /* What we do */
+    .rider{
+        font-size: 30px;
+    }
+
+    .stylingservice{
+        font-size: 30px; 
+    }
+
+    /* Makes us best */
+    .gettoknowus1{
+        margin-left: 40px;
+    }
+    .aboutustext1{
+        margin-left: 40px;
+    }
+
+    .besttextheading{
+        display: block !important;
+    }
+    .forlargescreenpadding{
+        padding-bottom: 100px;
+    }
+
+    /* Footer Section */
+    .leftingandrighting{
+        text-align: left;
+    }
+    
+}
+
+@media(min-width: 992px){
+    /* Navbar Section */
+    .forsmallscreen{
+        display: none;
+    }
+    .stylinglogo{
+        width: 280px;
+        position: absolute;
+        z-index: 1;
+        background-color: #000;
+        padding: 10px 120px 70px 10px;
+        top: 0px;
+        left: 0px;
+        clip-path: polygon( 0 0, /* left top */ 100% 0%, /* right top */ 90% 25%, /* right bottom */ 0 100% /* left bottom */ );
+    }
+    .orderacablink{
+        margin: 0px 2px 0px 2px;
+    }
+    /* About us left image section */
+    .mercedesimage{
+        height: 100%;
+        background-size: cover;
+    }
+
+    .mercedesimage1{
+        height: 100%;
+        background-size: cover;
+    }
+
+    .biggerthanlater{
+        font-size: 50px;
+    }
+    .smallerthanprevious{
+        font-size: 30px;
+    }
+
+    .centeredtext{
+        height: 33%;
+    }
+
+    .moreinfo{
+        margin-left: 25px;
+    }
+
+    .text-section{
+        display: block;
+        padding-left: 100px;
+    }
+
+    /* How it works */
+    .paddingforfeatures{
+        padding: 50px !important;
+    }
+
+    /* What we do */
+    .rider{
+        font-size: 40px;
+    }
+
+    .cab-text h1:after {
+        position: absolute;
+        display: block;
+        content: "";
+        border-bottom: 2px solid #8d1b3d;
+        width: 10%;
+        margin-top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Map and Stores Section */
+    .aligningstores{
+    position: relative; 
+    width: 100%;
+    text-align: center; 
+    padding: 9px;
+    }
+}
+
+@media(min-width: 1200px){
+    .biggerthanlater{
+        font-size: 60px;
+    }
+    .smallerthanprevious{
+        font-size: 35px;
+    }
+
+    .ride-with-us{
+        margin-right: 180px;
+    }
+
+    .ride-with-us a{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,49 @@
+.contactformfullsize{
+    padding: 60px 0px 60px 0px;
+}
+
+/* Contact Form Fields left side*/
+.contactforum{
+    margin-left: 15px
+}
+.rowmargs{
+    margin: 15px 0px 15px 0px;
+}
+
+.ownwidth{
+    width: 100% !important;
+    border: 2px solid gray !important;
+}
+
+/* Contact Info Details right side */
+.contactinfopads{
+    padding: 20px;
+}
+
+#cttext1:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f3c5";
+    margin-right: 10px;
+    color: #8D1B3D;
+}
+#cttext2:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f879";
+    margin-right: 10px;
+    color: #8D1B3D;
+}
+#cttext3:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f0e0";
+    margin-right: 10px;
+    color: #8D1B3D;
+}
+
+#cttext1:before, #cttext2:before, #cttext3:before{
+    border-right: 1px solid rgba(0, 0, 0, 0.46);
+    height: 10%;
+    padding-right: 10px;
+}
